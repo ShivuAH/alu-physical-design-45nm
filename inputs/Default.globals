@@ -1,0 +1,8 @@
+# Cadence Innovus Global Configuration File
+set ::TimeLib::max_library {libs/gsclib045_ss.lib}
+set ::TimeLib::min_library {libs/gsclib045_ff.lib}
+set init_gnd_net {VSS}
+set init_vdd_net {VDD}
+set init_top_cell {alu_32bit_case}
+set init_verilog {inputs/alu_netlist.v}
+set init_mmmc_file {inputs/Default.view}
